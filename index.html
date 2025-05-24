@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penalty Shooter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Penalty Shooter</h1>
+
+  <label for="player">Kies je speler:</label>
+  <select id="player">
+    <option>Speler 1</option>
+    <option>Speler 2</option>
+    <option>Speler 3</option>
+  </select>
+
+  <label for="keeper">Kies de keeper:</label>
+  <select id="keeper">
+    <option>Keeper A</option>
+    <option>Keeper B</option>
+    <option>Keeper C</option>
+  </select>
+
+  <div id="goal">
+    <div class="zone" data-zone="links"></div>
+    <div class="zone" data-zone="midden"></div>
+    <div class="zone" data-zone="rechts"></div>
+  </div>
+
+  <p id="resultaat"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
